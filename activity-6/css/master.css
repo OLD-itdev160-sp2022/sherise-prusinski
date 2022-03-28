@@ -1,0 +1,26 @@
+body {
+    font-family: 'Matrix', sans-serif;
+    max-width: 500px; 
+    background-color: black;
+    margin: 0 auto;
+}
+
+.messages {
+    margin-bottom: 20px;
+}
+
+.out-message {
+    padding: 5px;
+    font-style: oblique; 
+    color: cyan;
+}
+
+.in-message {
+    padding: 5px; 
+    font-style: italic;
+    color:greenyellow;
+}
+
+a {
+    color: burlywood;
+}
