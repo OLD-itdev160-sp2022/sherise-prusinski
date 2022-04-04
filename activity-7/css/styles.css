@@ -1,0 +1,31 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: auto 30px;
+    color: lightgreen;
+    background-color: black;
+}
+
+ul {
+    margin: 5px;
+}
+
+li {
+    padding: 5px;
+    color: coral
+}
+
+#task-list-container {
+    margin-top: 20px;
+}
+
+#done-list {
+    list-style: none;
+}
+
+#done-list li {
+    color: darkgreen;
+}
+
+#done-list li:before {
+    content: "\2713\0020";
+}
